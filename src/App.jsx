@@ -1,16 +1,24 @@
-import Header from './Header.jsx'
+/* import Header from './Header.jsx'
 import Footer from './Footer.jsx'
-import Food from './Food.jsx'
+import Food from './Food.jsx' */
+import Card from './Card.jsx'
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <main>
         <h2>Welcome to My React App</h2>
         <Food />
       </main>
-      <Footer /> 
+      <Footer />  */}
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </>
   )
 

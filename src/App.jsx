@@ -8,6 +8,22 @@ import Food from './Food.jsx' */
 import List from "./List"
 
 function App() {
+
+  const fruits = [
+        { name: 'Apple', calories: 95 },
+        { name: 'Banana', calories: 105 },
+        { name: 'Cherry', calories: 50 },
+        { name: 'Date', calories: 20 },
+        { name: 'Elderberry', calories: 70 }
+    ]
+
+    const vegetables = [
+        { name: 'Carrot', calories: 25 },
+        { name: 'Broccoli', calories: 50 },
+        { name: 'Spinach', calories: 100 },
+        { name: 'Kale', calories: 100 },
+        { name: 'Asparagus', calories: 100 }
+    ]
   
   return (
     <>
@@ -33,7 +49,10 @@ function App() {
       <Student age={30} /> */}
       {/* <UserGreeting name="Karl Rito" isLoggedin={true} /> */}
       
-      <List />
+      {/* {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null} */}
+      {fruits.length > 0 && <List items={fruits} category="Fruits" />}
+      {/* {vegetables.length > 0 ? <List items={vegetables} category="Vegetables" /> : null} */}
+      {vegetables.length > 0 && <List items={vegetables} category="Vegetables" />}
 
     </>
   )

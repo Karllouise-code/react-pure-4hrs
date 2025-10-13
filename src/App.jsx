@@ -4,7 +4,9 @@ import Food from './Food.jsx' */
 // import Card from './Card.jsx'
 // import Button from './Button.jsx'
 // import Student from './Student.jsx'
-import UserGreeting from "./UserGreeting"
+// import UserGreeting from "./UserGreeting"
+import List from "./List"
+
 function App() {
   
   return (
@@ -29,8 +31,9 @@ function App() {
       <Student name="April" age={22} isStudent={true} />
       <Student name="Lark" age={24} isStudent={true} />
       <Student age={30} /> */}
+      {/* <UserGreeting name="Karl Rito" isLoggedin={true} /> */}
       
-      <UserGreeting name="Karl Rito" isLoggedin={true} />
+      <List />
 
     </>
   )

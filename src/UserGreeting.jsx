@@ -1,4 +1,4 @@
-function UserGreeting(props) {
+function UserGreeting({name = "Guest", isLoggedin = false}) {
     /* if (props.isLoggedin) {
         return <h1>Hello, {props.name}!</h1>
     } 
@@ -7,11 +7,11 @@ function UserGreeting(props) {
     } */
 
         const welcomeMessage = 
-                <h2 className="welcome-message">Welcome, {props.name}!</h2>
+                <h2 className="welcome-message">Welcome, {name}!</h2>
         const loginPrompt = 
                 <h2 className="login-prompt">Please login to continue</h2>
    
-   return (props.isLoggedin ? welcomeMessage : loginPrompt)
+   return (isLoggedin ? welcomeMessage : loginPrompt)
 }
 
 export default UserGreeting;

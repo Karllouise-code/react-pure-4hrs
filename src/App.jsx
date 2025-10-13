@@ -2,7 +2,8 @@
 import Footer from './Footer.jsx'
 import Food from './Food.jsx' */
 // import Card from './Card.jsx'
-import Button from './Button.jsx'
+// import Button from './Button.jsx'
+import Student from './Student.jsx'
 
 function App() {
   return (
@@ -20,7 +21,13 @@ function App() {
       <Card />
       <Card />
       <Card /> */}
-      <Button />
+      {/* <Button /> */}
+      <Student name="Alice" age={20} />
+      <Student name="Bob" age={22} isStudent={true} />
+      <Student name="Leon" age={21} isStudent={false} />
+      <Student name="April" age={22} isStudent={true} />
+      <Student name="Lark" age={24} isStudent={true} />
+      <Student age={30} />
     </>
   )
 

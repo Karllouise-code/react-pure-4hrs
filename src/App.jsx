@@ -6,7 +6,10 @@ import Food from './Food.jsx' */
 // import Student from './Student.jsx'
 // import UserGreeting from "./UserGreeting"
 // import List from "./List"
-import ProfilePicture from './ProfilePicture.jsx'
+// import ProfilePicture from './ProfilePicture.jsx'
+import MyComponent from "./MyComponent"
+import Counter from "./Counter.jsx"
+
 
 function App() {
 
@@ -42,10 +45,9 @@ function App() {
       <Card />
       <Card /> */}
       {/* <Button /> */}
-      <ProfilePicture 
-        // src="https://randomuser.me/api/portraits/women/10.jpg"
+      {/* <ProfilePicture 
         alt="Karl Rito"
-      />
+      /> */}
       {/* <Student name="Alice" age={20} />
       <Student name="Bob" age={22} isStudent={true} />
       <Student name="Leon" age={21} isStudent={false} />
@@ -58,6 +60,9 @@ function App() {
       {/* {fruits.length > 0 && <List items={fruits} category="Fruits" />} */}
       {/* {vegetables.length > 0 ? <List items={vegetables} category="Vegetables" /> : null} */}
       {/* {vegetables.length > 0 && <List items={vegetables} category="Vegetables" />} */}
+
+      <MyComponent />
+      <Counter />
 
     </>
   )

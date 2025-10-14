@@ -5,11 +5,12 @@ import Food from './Food.jsx' */
 // import Button from './Button.jsx'
 // import Student from './Student.jsx'
 // import UserGreeting from "./UserGreeting"
-import List from "./List"
+// import List from "./List"
+import ProfilePicture from './ProfilePicture.jsx'
 
 function App() {
 
-  const fruits = [
+  /* const fruits = [
         { name: 'Apple', calories: 95 },
         { name: 'Banana', calories: 105 },
         { name: 'Cherry', calories: 50 },
@@ -23,7 +24,7 @@ function App() {
         { name: 'Spinach', calories: 100 },
         { name: 'Kale', calories: 100 },
         { name: 'Asparagus', calories: 100 }
-    ]
+    ] */
   
   return (
     <>
@@ -41,6 +42,10 @@ function App() {
       <Card />
       <Card /> */}
       {/* <Button /> */}
+      <ProfilePicture 
+        // src="https://randomuser.me/api/portraits/women/10.jpg"
+        alt="Karl Rito"
+      />
       {/* <Student name="Alice" age={20} />
       <Student name="Bob" age={22} isStudent={true} />
       <Student name="Leon" age={21} isStudent={false} />
@@ -50,9 +55,9 @@ function App() {
       {/* <UserGreeting name="Karl Rito" isLoggedin={true} /> */}
       
       {/* {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null} */}
-      {fruits.length > 0 && <List items={fruits} category="Fruits" />}
+      {/* {fruits.length > 0 && <List items={fruits} category="Fruits" />} */}
       {/* {vegetables.length > 0 ? <List items={vegetables} category="Vegetables" /> : null} */}
-      {vegetables.length > 0 && <List items={vegetables} category="Vegetables" />}
+      {/* {vegetables.length > 0 && <List items={vegetables} category="Vegetables" />} */}
 
     </>
   )

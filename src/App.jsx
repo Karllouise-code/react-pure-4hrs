@@ -10,7 +10,8 @@ import Food from './Food.jsx' */
 // import MyComponent from "./MyComponent"
 // import Counter from "./Counter.jsx"
 // import ColorPicker from './ColorPicker.jsx';
-import UpdateObjects from './UpdateObjects.jsx';
+// import UpdateObjects from './UpdateObjects.jsx';
+import UpdateArrays from './UpdateArrays.jsx';
 
 function App() {
 
@@ -61,12 +62,11 @@ function App() {
       {/* {fruits.length > 0 && <List items={fruits} category="Fruits" />} */}
       {/* {vegetables.length > 0 ? <List items={vegetables} category="Vegetables" /> : null} */}
       {/* {vegetables.length > 0 && <List items={vegetables} category="Vegetables" />} */}
-
       {/* <MyComponent /> */}
       {/* <Counter /> */}
       {/* <ColorPicker /> */}
-
-      <UpdateObjects />
+      {/* <UpdateObjects /> */}
+      <UpdateArrays />
 
     </>
   )

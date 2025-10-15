@@ -7,7 +7,7 @@ function Button() {
     fontSize: "16px",
     cursor: "pointer",
     borderRadius: "5px",
-  };
+  }; 
   let count = 0;
 
   /*  const handleClick = (name) => {

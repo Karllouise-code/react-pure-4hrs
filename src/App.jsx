@@ -11,7 +11,8 @@ import Food from './Food.jsx' */
 // import Counter from "./Counter.jsx"
 // import ColorPicker from './ColorPicker.jsx';
 // import UpdateObjects from './UpdateObjects.jsx';
-import UpdateArrays from './UpdateArrays.jsx';
+// import UpdateArrays from './UpdateArrays.jsx';
+import UpdateArrayObjects from './UpdateArrayObjects.jsx';
 
 function App() {
 
@@ -66,7 +67,8 @@ function App() {
       {/* <Counter /> */}
       {/* <ColorPicker /> */}
       {/* <UpdateObjects /> */}
-      <UpdateArrays />
+      {/* <UpdateArrays /> */}
+      <UpdateArrayObjects />
 
     </>
   )

@@ -8,8 +8,9 @@ import Food from './Food.jsx' */
 // import List from "./List"
 // import ProfilePicture from './ProfilePicture.jsx'
 // import MyComponent from "./MyComponent"
-import Counter from "./Counter.jsx"
+// import Counter from "./Counter.jsx"
 // import ColorPicker from './ColorPicker.jsx';
+import UpdateObjects from './UpdateObjects.jsx';
 
 function App() {
 
@@ -62,8 +63,10 @@ function App() {
       {/* {vegetables.length > 0 && <List items={vegetables} category="Vegetables" />} */}
 
       {/* <MyComponent /> */}
-      <Counter />
+      {/* <Counter /> */}
       {/* <ColorPicker /> */}
+
+      <UpdateObjects />
 
     </>
   )

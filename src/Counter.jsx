@@ -4,15 +4,25 @@ function Counter() {
   const [count, setCount] = useState(0);
 
   const increment = () => {
-    setCount(count + 1);
+    // NORMAL
+    // setCount(count + 1);
+
+    // UPDATER FUNCTION // still much better or recommended
+    setCount((c) => c + 1);
+    setCount((c) => c + 1);
   };
 
   const decrement = () => {
-    setCount(count - 1);
+    // setCount(count - 1); // NORMAL
+
+    // UPDATER FUNCTION // still much better or recommended
+    setCount((c) => c - 1);
+    setCount((c) => c - 1);
   };
 
   const reset = () => {
-    setCount(0);
+    setCount(0);  // just fine
+    // setCount((c) => 0); // wouldnt be necessary
   };
 
   return (

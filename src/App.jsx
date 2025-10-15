@@ -7,9 +7,9 @@ import Food from './Food.jsx' */
 // import UserGreeting from "./UserGreeting"
 // import List from "./List"
 // import ProfilePicture from './ProfilePicture.jsx'
-import MyComponent from "./MyComponent"
+// import MyComponent from "./MyComponent"
 // import Counter from "./Counter.jsx"
-
+import ColorPicker from './ColorPicker.jsx';
 
 function App() {
 
@@ -61,8 +61,9 @@ function App() {
       {/* {vegetables.length > 0 ? <List items={vegetables} category="Vegetables" /> : null} */}
       {/* {vegetables.length > 0 && <List items={vegetables} category="Vegetables" />} */}
 
-      <MyComponent />
+      {/* <MyComponent /> */}
       {/* <Counter /> */}
+      <ColorPicker />
 
     </>
   )

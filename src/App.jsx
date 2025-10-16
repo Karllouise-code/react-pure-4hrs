@@ -12,7 +12,9 @@ import Food from './Food.jsx' */
 // import ColorPicker from './ColorPicker.jsx';
 // import UpdateObjects from './UpdateObjects.jsx';
 // import UpdateArrays from './UpdateArrays.jsx';
-import UpdateArrayObjects from './UpdateArrayObjects.jsx';
+// import UpdateArrayObjects from './UpdateArrayObjects.jsx';
+
+import ToDoList from './ToDoList.jsx'
 
 function App() {
 
@@ -68,8 +70,9 @@ function App() {
       {/* <ColorPicker /> */}
       {/* <UpdateObjects /> */}
       {/* <UpdateArrays /> */}
-      <UpdateArrayObjects />
+      {/* <UpdateArrayObjects /> */}
 
+      <ToDoList />
     </>
   )
 

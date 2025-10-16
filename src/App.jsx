@@ -13,8 +13,9 @@ import Food from './Food.jsx' */
 // import UpdateObjects from './UpdateObjects.jsx';
 // import UpdateArrays from './UpdateArrays.jsx';
 // import UpdateArrayObjects from './UpdateArrayObjects.jsx';
-
-import ToDoList from './ToDoList.jsx'
+// import ToDoList from './ToDoList.jsx'
+// import UseEffect from './UseEffect.jsx'
+import UseEffect2 from './UseEffect2.jsx'
 
 function App() {
 
@@ -72,7 +73,9 @@ function App() {
       {/* <UpdateArrays /> */}
       {/* <UpdateArrayObjects /> */}
 
-      <ToDoList />
+      {/* <ToDoList /> */}
+      {/* <UseEffect /> */}
+      <UseEffect2 />
     </>
   )
 

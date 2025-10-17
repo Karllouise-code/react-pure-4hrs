@@ -7,7 +7,7 @@ function ComponentC() {
   return (
     <div className="box">
       <h1>Component C</h1>
-      <h2>{`Hello: ${user}`}</h2>
+      <h2>{`Hello again: ${user}`}</h2>
       <ComponentD />
     </div>
   );

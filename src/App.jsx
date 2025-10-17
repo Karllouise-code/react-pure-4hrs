@@ -18,7 +18,8 @@ import Food from './Food.jsx' */
 // import UseEffect2 from './UseEffect2.jsx'
 // import DigitalClock from './DigitalClock.jsx'
 // import ComponentA from './ComponentA.jsx'
-import UseRef from './UseRef.jsx'
+// import UseRef from './UseRef.jsx'
+import StopWatch from './StopWatch.jsx'
 
 
 function App() {
@@ -82,7 +83,9 @@ function App() {
       {/* <UseEffect2 /> */}
       {/* <DigitalClock /> */}
       {/* <ComponentA /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+      <StopWatch />
+      <StopWatch />
     </>
   )
 

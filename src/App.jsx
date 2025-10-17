@@ -15,7 +15,8 @@ import Food from './Food.jsx' */
 // import UpdateArrayObjects from './UpdateArrayObjects.jsx';
 // import ToDoList from './ToDoList.jsx'
 // import UseEffect from './UseEffect.jsx'
-import UseEffect2 from './UseEffect2.jsx'
+// import UseEffect2 from './UseEffect2.jsx'
+import DigitalClock from './DigitalClock.jsx'
 
 function App() {
 
@@ -75,7 +76,8 @@ function App() {
 
       {/* <ToDoList /> */}
       {/* <UseEffect /> */}
-      <UseEffect2 />
+      {/* <UseEffect2 /> */}
+      <DigitalClock />
     </>
   )
 

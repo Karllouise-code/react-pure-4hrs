@@ -133,7 +133,7 @@
 /* color picker */
 body {
   font-family: "Arial", sans-serif;
-  background-image: url(assets/bg_clock.jpg);
+  /* background-image: url(assets/bg_clock.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -142,7 +142,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 100vh; */
 }
 
 .color-picker-container {
@@ -291,4 +291,9 @@ input[type="color"] {
   font-family: monospace;
   text-align: center;
   text-shadow: 3px 3px 5px hsl(0, 0%, 0%);
+}
+
+.box {
+  border: 3px solid;
+  padding: 25px;
 }

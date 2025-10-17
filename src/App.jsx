@@ -16,7 +16,9 @@ import Food from './Food.jsx' */
 // import ToDoList from './ToDoList.jsx'
 // import UseEffect from './UseEffect.jsx'
 // import UseEffect2 from './UseEffect2.jsx'
-import DigitalClock from './DigitalClock.jsx'
+// import DigitalClock from './DigitalClock.jsx'
+import ComponentA from './ComponentA.jsx'
+
 
 function App() {
 
@@ -77,7 +79,8 @@ function App() {
       {/* <ToDoList /> */}
       {/* <UseEffect /> */}
       {/* <UseEffect2 /> */}
-      <DigitalClock />
+      {/* <DigitalClock /> */}
+      <ComponentA />
     </>
   )
 
